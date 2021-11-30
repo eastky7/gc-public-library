@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GCPL Home</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="css/blog.css">
+  <link href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- header image -->
+  <div class="header-image"></div>
+
+  <!-- navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand shadow-lg rounded" href="index.html"><img src="img/gcpl-rectangle-logo.png" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="events.html">Events</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Services
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="services.html">In-House Services</a></li>
+              <li><a class="dropdown-item" href="services.html#digital">Digital Services</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="services.html#resources">Links &amp; Resources</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search Catalog" aria-label="Search">
+          <button class="btn btn-outline-primary" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- notification -->
+  <section>
+    <div class="container mt-3">
+      <div class="alert alert-primary alert-dismissible fade show text-center" role="alert">
+        <i class="fas fa-sleigh"></i> Heads up! Santa will be visiting your library soon. <a href="events.html#santa"
+          class="alert-link">Click here</a> to find out when.
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- hero section -->
+  <div class="section">
+    <div class="px-4 pt-5 my-5 mt-0 text-center border-bottom">
+      <h1 class="display-4 fw-bold"><span class="fas fa-camera-retro"></span> Capture Imagination</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">Happily discover a new passion with Ghre County Public Library's
+          new photography class, the county's only free (and fun) photography
+          course. We provide cameras during class time, extensive photo editing tools,
+          monthly challenges and workshops.</p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+          <a class="btn btn-primary btn-lg px-4 me-sm-3 shadow-lg" href="events.html">Register</a>
+          <a class="btn btn-light btn-lg px-4 shadow-lg" href="events.html">Learn More</a>
+        </div>
+      </div>
+      <div class="overflow-hidden" style="max-height: 30vh;">
+        <div class="container px-5">
+          <img src="img/hero-image.jpg" class="img-fluid border rounded-3 shadow-lg mb-4" alt="cyclinder shenanigans"
+            width="700" height="500" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- featured section-->
+  <section class="container">
+    <div class="p-4 p-md-5 mb-5 bg-white rounded shadow-sm" id="featured-3">
+      <h2 class="pb-2 border-bottom">Featured This Month</h2>
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="feature col">
+          <i class="fas fa-atlas display-2 mb-4"></i>
+          <h2>Book Clubs</h2>
+          <p>Start reading with one of the several book clubs at your library. Meetups are monthly and
+            currently have clubs established for any age category.
+          </p>
+          <a href="events.html" class="icon-link">
+            <i class="fas fa-angle-right"></i>
+            See Details
+          </a>
+        </div>
+        <div class="feature col">
+          <i class="fas fa-heartbeat display-2 mb-4"></i>
+          <h2>Healthcare Workers</h2>
+          <p>Need some place quiet to study for your cert exams? Reserve a study room by calling <a
+              href="tel:+6065555555">
+              (606)-555-5555
+            </a></p>
+          <a href="services.html#inhouse" class="icon-link">
+            <i class="fas fa-angle-right"></i>
+            Reserve A Room
+          </a>
+        </div>
+        <div class="feature col">
+          <i class="fas fa-umbrella display-2 mb-4"></i>
+          <h2>Rainy Day Reading</h2>
+          <p>Our librarians have curated reading recommendations just for your reading pleasure. Browse lists by
+            category, audience,
+            or topic. <a href="#">Submit</a> a reading request form to have a list specially tailored to your
+            preferences.
+          </p>
+          <a href="#" class="icon-link">
+            <i class="fas fa-angle-right"></i>
+            Browse Recommendations
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- blog section -->
+  <section>
+    <div class="container">
+      <h2 class="pb-2 border-bottom">News &amp; Articles</h2>
+      <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
+        <div class="col-md-6 px-0">
+          <h1 class="display-4 fst-italic">Ghre County Public Library secures long-term, new location</h1>
+          <p class="lead my-3">After two years of planning, the Ghre County Public Library Board of Trustees
+            signed a 50-year lease with the city of Ghreville marking the first non-temporary physical location
+            for the district.
+          </p>
+          <p class="lead mb-0"><a href="#" class="text-white fw-bold">Continue reading...</a></p>
+        </div>
+      </div>
+
+      <div class="row mb-2">
+        <div class="col-md-6">
+          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static bg-light">
+              <strong class="d-inline-block mb-2 text-primary">Social</strong>
+              <h3 class="mb-0">Social media workshop</h3>
+              <div class="mb-1 text-muted">Nov 12</div>
+              <p class="card-text mb-auto">This all day workshop places social media experts alongside patrons...</p>
+              <a href="#" class="stretched-link">Continue reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img src="img/social.jpg" alt="" width="200" height="250">
+
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static bg-light">
+              <strong class="d-inline-block mb-2 text-info">Technology</strong>
+              <h3 class="mb-0">Basic computer classes offered</h3>
+              <div class="mb-1 text-muted">Nov 11</div>
+              <p class="mb-auto">Your library has partnered with certified pros to offer free basic...
+              </p>
+              <a href="#" class="stretched-link">Continue reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img src="img/laptop.jpg" alt="" width="200" height="250">
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- faqs -->
+  <section class="p-5" id="questions">
+    <div class="container">
+      <h2 class="text-center mb-4">
+        Frequently Asked Questions
+      </h2>
+      <div class="accordion accordion-flush" id="questions">
+        <!-- Item 1 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#question-one" aria-expanded="false" aria-controls="question-one">
+              How do I get a library card?
+            </button>
+          </h2>
+          <div id="question-one" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+            data-bs-parent="#questions">
+            <div class="accordion-body">Library cards are available for free to any resident of Ghre
+              County. Residents ages 17 or older can recieve a library card by presenting a photo ID at
+              any Ghre County Public Library. Residents below age 17 must have an accompany parent or guardian.
+              Library cards are available to non-residents for a one time fee of $5.00.
+            </div>
+          </div>
+        </div>
+        <!-- Item 2 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#question-two" aria-expanded="false" aria-controls="question-two">
+              How do I request special accomodations?
+            </button>
+          </h2>
+          <div id="question-two" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+            data-bs-parent="#questions">
+            <div class="accordion-body">Ghre County Public Library recognizes a need for assistive
+              technologies and provides them per request. Special accomodations can be requested by telephone,
+              in-person, or via
+              email during normal operating hours.
+            </div>
+          </div>
+        </div>
+        <!-- Item 3 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#question-three" aria-expanded="false" aria-controls="question-three">
+              How can I report a problem with the website?
+            </button>
+          </h2>
+          <div id="question-three" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+            data-bs-parent="#questions">
+            <div class="accordion-body">To report a problem or issue with our website, please fill out this
+              <a href="#">form</a> and submit it to <a
+                href="mailto:helpdesk@gclibraries.org">helpdesk@gclibraries.org</a><br><br>
+              Submitted issues are addressed in sequential order. You will be notified using your given contact
+              information
+              when the issue is resolved.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer class="p-5 bg-dark text-white text-center position-relative">
+    <div class="container">
+      <p class="lead">Copyright &copy; 2021</p>
+
+      <a href="#" class="position-absolute bottom-0 end-0 p-5 text-secondary">
+        <span class="fas fa-arrow-alt-circle-up h1"></span>
+      </a>
+    </div>
+  </footer>
+
+  <!-- scripts -->
+  <script src="js/bootstrap.bundle.js"></script>
+  <script src="js/all.js"></script>
+</body>
+
+</html>
