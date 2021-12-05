@@ -5,10 +5,25 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GCPL About</title>
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+  <meta name="description" content="Get the most out of your public library!">
+  <title>GC Public Library | About</title>
+  <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="img/favicons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="img/favicons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+  <link rel="manifest" href="img/favicons/manifest.json">
+  <meta name="msapplication-TileColor" content="#ded1e0">
+  <meta name="msapplication-TileImage" content="img/favicons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ded1e0">
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/all.css">
@@ -95,19 +110,23 @@
   <div class="container">
     <h2 class="pb-2 pt-2 border-bottom">News</h2>
     <!-- blog section -->
-    <div class="container mt-5">
+    <div class="container mt-5" id="mainArticle">
       <div class="row g-5">
         <div class="col-md-8">
           <h3 class="pb-4 mb-4 fst-italic border-bottom">
-            From the Firehose
+            Fresh Off the Press
           </h3>
 
           <article class="blog-post">
-            <h2 class="blog-post-title">Sample blog post</h2>
-            <p class="blog-post-meta">January 1, 2021 by <a href="#">Mark</a></p>
+            <img src="img/gcpl-square-logo.png" class="img-fluid float-end px-3 pb-4" alt="">
+            <h2 class="blog-post-title">Ghre County Public Library secures long-term, new location</h2>
+            <p class="blog-post-meta">November 19, 2021 by <a href="#">Tracy K.</a></p>
 
             <p>This blog post shows a few different types of content that’s supported and styled with Bootstrap. Basic
               typography, lists, tables, images, code, and more are all supported as expected.</p>
+            <p>Early in the past month, board members, community leaders, and friends of the library joined together 
+              to celebrate the coming 
+            </p>
             <hr>
             <p>This is some additional paragraph placeholder content. It has been written to fill the available space
               and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the
@@ -172,14 +191,14 @@
             <p>This is some additional paragraph placeholder content. It has been written to fill the available space
               and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the
               demonstration flowing, so be on the lookout for this exact same string of text.</p>
-            <pre><code>Example code block</code></pre>
+            <pre><code>Example code block</code></pre><span id="news1"></span>
             <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the other
               highly repetitive body text used throughout.</p>
           </article>
-
+          
           <article class="blog-post">
-            <h2 class="blog-post-title">Another blog post</h2>
-            <p class="blog-post-meta">December 23, 2020 by <a href="#">Jacob</a></p>
+            <h2 class="blog-post-title">Social Media Workshop Announced</h2>
+            <p class="blog-post-meta">November 4, 2021 by <a href="#">Anthony V.</a></p>
 
             <p>This is some additional paragraph placeholder content. It has been written to fill the available space
               and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the
@@ -224,7 +243,7 @@
                   <td>23</td>
                 </tr>
               </tfoot>
-            </table>
+            </table><span id="news2"></span>
 
             <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the other
               highly repetitive body text used throughout.</p>
@@ -296,12 +315,23 @@
   <!-- footer -->
   <footer class="p-5 bg-dark text-white text-center position-relative">
     <div class="container">
-      <p class="lead">Copyright &copy; 2021</p>
+      <p class="lead">Copyright &copy; 2021 Ghre County Public Library</p>
 
-      <a href="#" class="position-absolute bottom-0 end-0 p-5 text-primary">
+      <a href="#" class="position-absolute bottom-0 end-0 p-5 text-secondary">
         <span class="fas fa-arrow-alt-circle-up h1"></span>
       </a>
     </div>
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link text-secondary" href="#">Administration</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-secondary" href="#">Privacy Policy</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-secondary" href="#">Terms &amp; Conditions</a>
+      </li>
+    </ul>
   </footer>
 
   <script src="js/bootstrap.bundle.js"></script>
