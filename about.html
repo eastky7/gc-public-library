@@ -16,7 +16,7 @@
   <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-icon-144x144.png">
   <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-icon-152x152.png">
   <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192"  href="img/favicons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="img/favicons/android-icon-192x192.png">
   <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="96x96" href="img/favicons/favicon-96x96.png">
   <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
@@ -84,27 +84,84 @@
     </div>
   </nav>
 
-    <!-- modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Your Catalog Here!</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            Integrate your existing catalog and connect everything together.
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+  <!-- modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Your Catalog Here!</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Integrate your existing catalog and connect everything together.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Success Message</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Thank you for subscribing. Cancel anytime.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- hours & newsletter signup -->
+  <section id="hours">
+    <div class="container mt-4">
+      <h2 class="pb-2 pt-2 border-bottom">Hours</h2>
+      <div class="row g-4">
+        <div class="col-md">
+          <ul class="list-group list-group-flush lead">
+            <li class="list-group-item">
+              <span class="fw-bold">Monday</span> 9 AM - 6 PM
+            </li>
+            <li class="list-group-item">
+              <span class="fw-bold">Tuesday, Thursday</span> 8 AM - 7 PM
+            </li>
+            <li class="list-group-item">
+              <span class="fw-bold">Wednesday, Friday</span> 10 AM - 7 PM
+            </li>
+            <li class="list-group-item">
+              <span class="fw-bold">Saturday</span> 9 AM - 7 PM
+            </li>
+            <li class="list-group-item">
+              <span class="fw-bold">Community Rooms:</span> Access requires authorized pin via keypad.
+            </li>
+          </ul>
+        </div>
+        <div class="col md">
+          <p class="lead">Enter your email address to receive our monthly newsletter in your inbox.</p>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="yourname@example.com" aria-label="yourname@example.com"
+              aria-describedby="button-addon2">
+            <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal"
+              data-bs-target="#exampleModal2">
+              Sign up
+            </button>
           </div>
         </div>
       </div>
     </div>
+  </section>
 
   <!-- Contact & Map -->
-  <section id="contact" class="p-5">
-    <div class="container">
+  <section id="contact">
+    <div class="container mt-4">
       <h2 class="pb-2 pt-2 border-bottom">Contact</h2>
       <div class="row g-4">
         <div class="col-md">
@@ -130,7 +187,7 @@
     </div>
   </section>
 
-  <div class="container">
+  <div class="container mt-4">
     <h2 class="pb-2 pt-2 border-bottom">News</h2>
     <!-- blog section -->
     <div class="container mt-5" id="mainArticle">
@@ -145,68 +202,46 @@
             <h2 class="blog-post-title">Ghre County Public Library secures long-term, new location</h2>
             <p class="blog-post-meta">November 19, 2021 by <a href="#">Tracy K.</a></p>
 
-            <p>This blog post shows a few different types of content that’s supported and styled with Bootstrap. Basic
-              typography, lists, tables, images, code, and more are all supported as expected.</p>
-            <p>Early in the past month, board members, community leaders, and friends of the library joined together 
-              to celebrate the coming 
+            <p>Early in the past month, board members, community leaders, and friends of the library joined together
+              to celebrate the coming days now that an agreement has been reached with the city for the signing of a
+              50-year-lease.
             </p>
             <hr>
-            <p>This is some additional paragraph placeholder content. It has been written to fill the available space
-              and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the
-              demonstration flowing, so be on the lookout for this exact same string of text.</p>
-            <h2>Blockquotes</h2>
-            <p>This is an example blockquote in action:</p>
+            <p>To kick off the celebration, Piercy Stanton will be performing low-volume jazz music near the coffee
+              maker
+              in the breakroom. Director Conlene Muyo re-established Piercy's library rights and pardoned his ban on the
+              grounds that
+              he keep the coffee machine rolling and the fork out some tunes.
+            </p>
+            <h2>Piercy Stanton to perform</h2>
             <blockquote class="blockquote">
-              <p>Quoted text goes here.</p>
+              <p>"...he (Piercy) better behave." -Director Conlene Muyo</p>
             </blockquote>
-            <p>This is some additional paragraph placeholder content. It has been written to fill the available space
-              and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the
-              demonstration flowing, so be on the lookout for this exact same string of text.</p>
-            <h3>Example lists</h3>
-            <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the other
-              highly repetitive body text used throughout. This is an example unordered list:</p>
+            <p>Several other celebratory measures have been taken including a fairly expensive fruit display, four large
+              banners placed
+              throughout the inner city, and a contest that lets local children submit ideas for a chance to choose a
+              memorial
+              garden park theme.
+            </p>
+            <h3>Garden Park Contest Rules</h3>
+            <p>Any Ghre County resident aged seventeen or younger can submit an entry. The criteria for the contest is
+              as follows:</p>
             <ul>
-              <li>First list item</li>
-              <li>Second list item with a longer description</li>
-              <li>Third list item to close it out</li>
+              <li>One-Page Letter Explaining Your Theme Choice</li>
+              <li>Some Type of Graphical Respresentation</li>
+              <li>Invent a Name for the Garden Park</li>
             </ul>
-            <p>And this is an ordered list:</p>
+            <p>Official City Sponsors:</p>
             <ol>
-              <li>First list item</li>
-              <li>Second list item with a longer description</li>
-              <li>Third list item to close it out</li>
+              <li>Community Luck Bank</li>
+              <li>KRRL Gas Inc.</li>
+              <li>Jim's Paintbrush Shop</li>
             </ol>
-            <p>And this is a definition list:</p>
-            <dl>
-              <dt>HyperText Markup Language (HTML)</dt>
-              <dd>The language used to describe and define the content of a Web page</dd>
-              <dt>Cascading Style Sheets (CSS)</dt>
-              <dd>Used to describe the appearance of Web content</dd>
-              <dt>JavaScript (JS)</dt>
-              <dd>The programming language used to build advanced Web sites and applications</dd>
-            </dl>
-            <h2>Inline HTML elements</h2>
-            <p>HTML defines a long list of available inline tags, a complete list of which can be found on the <a
-                href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">Mozilla Developer Network</a>.</p>
-            <ul>
-              <li><strong>To bold text</strong>, use <code
-                  class="language-plaintext highlighter-rouge">&lt;strong&gt;</code>.</li>
-              <li><em>To italicize text</em>, use <code class="language-plaintext highlighter-rouge">&lt;em&gt;</code>.
-              </li>
-              <li>Abbreviations, like <abbr title="HyperText Markup Langage">HTML</abbr> should use <code
-                  class="language-plaintext highlighter-rouge">&lt;abbr&gt;</code>, with an optional <code
-                  class="language-plaintext highlighter-rouge">title</code> attribute for the full phrase.</li>
-              <li>Citations, like <cite>— Mark Otto</cite>, should use <code
-                  class="language-plaintext highlighter-rouge">&lt;cite&gt;</code>.</li>
-              <li><del>Deleted</del> text should use <code
-                  class="language-plaintext highlighter-rouge">&lt;del&gt;</code> and <ins>inserted</ins> text should
-                use <code class="language-plaintext highlighter-rouge">&lt;ins&gt;</code>.</li>
-              <li>Superscript <sup>text</sup> uses <code class="language-plaintext highlighter-rouge">&lt;sup&gt;</code>
-                and subscript <sub>text</sub> uses <code
-                  class="language-plaintext highlighter-rouge">&lt;sub&gt;</code>.</li>
-            </ul>
+            <p>Anyone eligible is encouraged to submit an entry!</p>
+
+
             <p>Most of these elements are styled by browsers with few modifications on our part.</p>
-            <h2>Heading</h2>
+            <h2>Another Heading</h2>
             <p>This is some additional paragraph placeholder content. It has been written to fill the available space
               and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the
               demonstration flowing, so be on the lookout for this exact same string of text.</p>
@@ -218,74 +253,74 @@
             <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the other
               highly repetitive body text used throughout.</p>
           </article>
-          
+
           <article class="blog-post">
             <h2 class="blog-post-title">Social Media Workshop Announced</h2>
             <p class="blog-post-meta">November 4, 2021 by <a href="#">Anthony V.</a></p>
 
-            <p>This is some additional paragraph placeholder content. It has been written to fill the available space
-              and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the
-              demonstration flowing, so be on the lookout for this exact same string of text.</p>
+            <p>Programming librarians have connected with local social media experts to give Ghre County residents 
+              a leg-up on staying connected. These workshops will reoccur weekly for the next few monthes and are accessible via registration only.
+            </p>
             <blockquote>
-              <p>Longer quote goes here, maybe with some <strong>emphasized text</strong> in the middle of it.</p>
+              <p>"Something about helping others stay connected just <strong>really, really</strong> makes me happy." -Margo Fennel, Super Social</p>
             </blockquote>
-            <p>This is some additional paragraph placeholder content. It has been written to fill the available space
-              and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the
-              demonstration flowing, so be on the lookout for this exact same string of text.</p>
-            <h3>Example table</h3>
-            <p>And don't forget about tables in these posts:</p>
+            <p>Patrons who sign up will learn all about how to stay current with social media platforms such as facebook, twitter, and more.
+              Not only will attendees learn how to stay sharp on social media, but they will also learn how to avoid the pitfalls!
+            </p>
+            <h3>You Voted, We Delivered</h3>
+            <p>See the results of this season's programming voting session:</p>
             <table class="table">
               <thead>
                 <tr>
-                  <th>Name</th>
+                  <th>Program Name</th>
                   <th>Upvotes</th>
                   <th>Downvotes</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td>Alice</td>
-                  <td>10</td>
-                  <td>11</td>
+                  <td>Social Media Workshop</td>
+                  <td>200</td>
+                  <td>19</td>
                 </tr>
                 <tr>
-                  <td>Bob</td>
-                  <td>4</td>
-                  <td>3</td>
+                  <td>Knitting Workshop</td>
+                  <td>24</td>
+                  <td>177</td>
                 </tr>
                 <tr>
-                  <td>Charlie</td>
-                  <td>7</td>
-                  <td>9</td>
+                  <td>HAM Radio Workshop</td>
+                  <td>14</td>
+                  <td>62</td>
                 </tr>
               </tbody>
               <tfoot>
                 <tr>
-                  <td>Totals</td>
-                  <td>21</td>
-                  <td>23</td>
+                  <td>Winner</td>
+                  <td class="text-success"><i class="fas fa-trophy"></i> Social Media Workshop</td>
+                  <td></td>
                 </tr>
               </tfoot>
             </table><span id="news2"></span>
 
-            <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the other
-              highly repetitive body text used throughout.</p>
+            <p>For more information on program voting or available workshops contact your local librarian 
+              or visit our <a href="#">voting</a> page.</p>
           </article>
 
           <article class="blog-post">
-            <h2 class="blog-post-title">New feature</h2>
-            <p class="blog-post-meta">December 14, 2020 by <a href="#">Chris</a></p>
+            <h2 class="blog-post-title">Basic Computer Classes</h2>
+            <p class="blog-post-meta">December 15, 2021 by <a href="#">Bert R.</a></p>
 
-            <p>This is some additional paragraph placeholder content. It has been written to fill the available space
-              and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the
-              demonstration flowing, so be on the lookout for this exact same string of text.</p>
+            <p>Feeling left behind with technology? Join the library's basic computer class to get started catching up 
+              with today's tech trends. 
+            </p>
             <ul>
-              <li>First list item</li>
-              <li>Second list item with a longer description</li>
-              <li>Third list item to close it out</li>
+              <li>Learn about Laptops, Desktops, &amp; Mobile Phones</li>
+              <li>Activities &amp; Weekly Challenges</li>
+              <li>Laptops provided</li>
             </ul>
-            <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the other
-              highly repetitive body text used throughout.</p>
+            <p>This basic computer course aims to help patrons who have a desire to learn about technology do so inside a 
+              hands-on environment with current tech industry workers. Registration available at the circulation desk or by phone.</p>
           </article>
 
           <nav class="blog-pagination" aria-label="Pagination">
@@ -299,8 +334,9 @@
           <div class="position-sticky" style="top: 2rem;">
             <div class="p-4 mb-3 bg-light rounded">
               <h4 class="fst-italic">About</h4>
-              <p class="mb-0">Customize this section to tell your visitors a little bit about your publication, writers,
-                content, or something else entirely. Totally up to you.</p>
+              <p class="mb-0">First established in a one-room, log schoolhouse by the Hounds River, Ghre County Public Library has been serving the county's 
+                information needs since 1949. 
+              </p>
             </div>
 
             <div class="p-4">
@@ -317,12 +353,12 @@
                 <li><a href="#">July 2020</a></li>
                 <li><a href="#">June 2020</a></li>
                 <li><a href="#">May 2020</a></li>
-                <li><a href="#">April 2020</a></li>
+                <li><a href="#">Further Back</a></li>
               </ol>
             </div>
 
             <div class="p-4">
-              <h4 class="fst-italic">Elsewhere</h4>
+              <h4 class="fst-italic">Social Media</h4>
               <ol class="list-unstyled">
                 <li><a href="#">GitHub</a></li>
                 <li><a href="#">Twitter</a></li>
