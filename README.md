@@ -43,8 +43,6 @@ the following features were selected from the project reqs:
 ## notes
 *this website is a mockup only and is limited in functionality.*
 
-## author
-r. brandon thompson
 
 
 
