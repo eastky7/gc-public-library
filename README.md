@@ -2,11 +2,11 @@
 a code ky project for front end web development
 
 ## project description
-this project was inspired by my <3 for libraries.
+this project was inspired by my <3 for libraries
 
 it consists of several page categories that makeup a website
-for a fictional rural public library called 
-'Ghre County Public Library'.
+for a fictional, rural public library called 
+'Ghre County Public Library'
 
 --below describes the primary pages and features:
 
